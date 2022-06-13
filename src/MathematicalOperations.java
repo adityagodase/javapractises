@@ -1,5 +1,6 @@
 public class MathematicalOperations {
-    public static void main(String[] args) {
+
+     static public void main(String... args) {
         int x = 52;
         int y = 85;
         int result;
@@ -16,5 +17,11 @@ public class MathematicalOperations {
         //division
         result = y / x;
         System.out.println("division is:" + result);
+
+
+
+    }
+    public static void main1(String args[]){
+       System.out.println("main 1 method");
     }
 }
